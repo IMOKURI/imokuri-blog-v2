@@ -3,7 +3,9 @@ title: MIB定義ファイルの構成
 slug: mib-definition-file-syntax
 date: 2012-11-18
 published: true
-tags: ['SNMP', 'MIB']
+tags:
+    - SNMP
+    - MIB
 series: false
 canonical_url: false
 description: "MIB定義ファイルのフォーマットについてまとめです。ここでは、SNMPv2をベースにしています。"
