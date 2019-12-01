@@ -24,7 +24,7 @@ export default {
     PostMeta,
     PostTags
   },
-  props: ['post'],
+  props: ['post']
 }
 </script>
 
