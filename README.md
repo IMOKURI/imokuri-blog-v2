@@ -1,29 +1,5 @@
-# Gridsome Blog Starter
+# imokuri-blog
 
-> A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/54e41f68-ce02-4548-963e-2de6313cbc83/deploy-status)](https://app.netlify.com/sites/flamboyant-tereshkova-22c3f8/deploys)
 
-## Features
-- Beautiful and simple design.
-- Markdown for content.
-- Tags support.
-- Dark / Light toggle.
-- CSS variables, SCSS & BEM for styling.
-- 100, 100, 100, 100 score on Google Lighthouse.
-- Uses same front-matter fields as Dev.to.
-
-## Demo URL
-
-https://gridsome-starter-blog.netlify.com
-
-## Install
-
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Install this starter
-
-1. `gridsome create my-gridsome-site https://github.com/gridsome/gridsome-starter-blog.git`
-2. `cd my-gridsome-site` to open folder
-3. `gridsome develop` to start local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+Powered by [Gridsome](https://gridsome.org/) and [Netlify](https://www.netlify.com/)
