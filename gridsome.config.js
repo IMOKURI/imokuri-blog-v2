@@ -9,7 +9,7 @@ module.exports = {
   siteDescription: 'I like IMO and KURI.',
 
   templates: {
-    Post: '/:title',
+    Post: '/blog/:year/:month/:slug',
     Tag: '/tag/:id'
   },
 

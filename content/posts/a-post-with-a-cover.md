@@ -1,5 +1,6 @@
 ---
 title: A post with a cover image
+slug: a-post-with-a-cover-image
 date: 2019-01-07
 published: true
 tags: ['Markdown', 'Cover Image']
