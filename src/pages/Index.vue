@@ -43,7 +43,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'I like IMO and KURI.'
+    title: 'Home'
   }
 }
 </script>

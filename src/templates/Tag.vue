@@ -7,6 +7,8 @@
     <div class="posts">
       <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
+
+    <Author class="post-author" />
   </Layout>
 </template>
 
@@ -41,7 +43,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'I like IMO and KURI.'
+    title: 'Tag'
   }
 }
 </script>
@@ -49,4 +51,3 @@ export default {
 <style lang="scss">
 
 </style>
-
