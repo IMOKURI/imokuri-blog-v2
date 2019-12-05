@@ -12,6 +12,7 @@
         </p>
 
         <p class="author__links">
+            <g-link to="/about/">About</g-link>
             <a target="_blank" rel="noopener noreferrer" href="//twitter.com/rouge_pawn">Twitter</a>
             <a target="_blank" rel="noopener noreferrer" href="//github.com/IMOKURI">GitHub</a>
         </p>

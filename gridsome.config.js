@@ -30,6 +30,21 @@ module.exports = {
       }
     },
     {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Static',
+        path: 'content/static/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
+      }
+    },
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-62022693-1'
