@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-date: 2019-12-05
+date: 2019-12-06
 cover_image: ./images/about.jpg
 ---
 
@@ -30,8 +30,18 @@ Right Mixな会社のRight Mixなインフラエンジニア
 
 - Neovim
 
+#### 得意なこと
+
+- Ansible(Ansible Tower)
+- Zabbix(SNMP)
+- MapR(Hadoop)
+- Git(GitHub)
+- Jenkins
+- Docker
+- Linux
+
 #### 最近頑張っていること
 
-- Ansible
 - Kubernetes
 - Python
+- Deep Learning
