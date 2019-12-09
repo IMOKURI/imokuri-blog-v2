@@ -22,7 +22,7 @@
 
       <div class="post-comments">
         <!-- Add comment widgets here -->
-        <vue-disqus shortname="imokuri" :identifier="$page.post.title"></vue-disqus>
+        <!-- <vue-disqus shortname="imokuri" :identifier="$page.post.title"></vue-disqus> -->
       </div>
     </div>
 
