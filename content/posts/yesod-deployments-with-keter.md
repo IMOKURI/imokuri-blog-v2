@@ -2,6 +2,7 @@
 title: KeterでYesodを動かす。
 slug: yesod-deployments-with-keter
 date: 2015-09-25
+updated:
 published: true
 tags:
     - Haskell

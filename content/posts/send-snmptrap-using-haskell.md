@@ -2,6 +2,7 @@
 title: HaskellでSNMP Trapを投げる
 slug: send-snmptrap-using-haskell
 date: 2014-06-29
+updated:
 published: true
 tags:
     - Haskell

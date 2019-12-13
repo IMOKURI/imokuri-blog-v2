@@ -2,6 +2,7 @@
 title: LinuxのいろいろなID
 slug: linux-ids
 date: 2016-01-18
+updated:
 published: true
 tags:
     - Linux

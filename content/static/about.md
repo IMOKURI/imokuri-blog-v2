@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-date: 2019-12-06
+updated: 2019-12-06
 cover_image: ./images/about.jpg
 ---
 

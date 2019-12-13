@@ -2,6 +2,7 @@
 title: MIB定義ファイルの構成
 slug: mib-definition-file-syntax
 date: 2012-11-18
+updated:
 published: true
 tags:
     - SNMP

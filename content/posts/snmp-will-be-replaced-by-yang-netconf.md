@@ -2,6 +2,7 @@
 title: SNMPに取って代わるYANG/NETCONF
 slug: snmp-will-be-replaced-by-yang-netconf
 date: 2015-04-28
+updated:
 published: true
 tags:
     - YANG

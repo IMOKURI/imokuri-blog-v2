@@ -2,6 +2,7 @@
 title: git pushの出力がstderrであることの弊害
 slug: git-push-output-is-stderr
 date: 2016-01-15
+updated:
 published: true
 tags:
     - Git

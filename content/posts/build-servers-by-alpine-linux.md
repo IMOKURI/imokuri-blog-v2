@@ -2,6 +2,7 @@
 title: Alpine Linuxでインフラ構築・検証に必要なサーバ機能を揃えておく。
 slug: build-servers-by-alpine-linux
 date: 2016-09-08
+updated:
 published: true
 tags:
     - Linux

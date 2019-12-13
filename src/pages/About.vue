@@ -11,7 +11,7 @@
       <div class="post__content" v-html="$page.about.content" />
 
       <div class="post__footer">
-        <PostMeta :post="$page.about" />
+        <PostUpdatedMeta :post="$page.about" />
       </div>
 
     </div>
@@ -24,7 +24,7 @@ query {
   about: static (path: "/content/static/about") {
     title
     path
-    date (format: "MMMM D, YYYY")
+    updated (format: "MMMM D, YYYY")
     content
     cover_image (width: 860, blur: 10)
   }
@@ -33,12 +33,12 @@ query {
 
 <script>
 import Author from '~/components/Author.vue'
-import PostMeta from '~/components/PostMeta'
+import PostUpdatedMeta from '~/components/PostUpdatedMeta'
 
 export default {
   components: {
     Author,
-    PostMeta
+    PostUpdatedMeta
   },
   metaInfo () {
     return {

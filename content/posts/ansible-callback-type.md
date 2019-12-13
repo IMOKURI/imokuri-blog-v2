@@ -2,6 +2,7 @@
 title: AnsibleのCallbackプラグインのCALLBACK_TYPEについて
 slug: ansible-callback-type
 date: 2017-07-13
+updated:
 published: true
 tags:
     - Ansible

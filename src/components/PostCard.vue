@@ -8,6 +8,7 @@
       <p class="post-card__description" v-html="post.description" />
 
       <PostMeta class="post-card__meta" :post="post" />
+      <PostUpdatedMeta class="post-card__meta" :post="post" v-if="post.updated" />
       <PostTags class="post-card__tags" :post="post" />
 
       <g-link class="post-card__link" :to="post.path">Link</g-link>
@@ -17,11 +18,13 @@
 
 <script>
 import PostMeta from '~/components/PostMeta'
+import PostUpdatedMeta from '~/components/PostUpdatedMeta'
 import PostTags from '~/components/PostTags'
 
 export default {
   components: {
     PostMeta,
+    PostUpdatedMeta,
     PostTags
   },
   props: ['post']

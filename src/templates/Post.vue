@@ -6,6 +6,7 @@
       </h1>
 
       <PostMeta :post="$page.post" />
+      <PostUpdatedMeta :post="$page.post" v-if="$page.post.updated" />
 
     </div>
 
@@ -32,6 +33,7 @@
 
 <script>
 import PostMeta from '~/components/PostMeta'
+import PostUpdatedMeta from '~/components/PostUpdatedMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
 
@@ -39,6 +41,7 @@ export default {
   components: {
     Author,
     PostMeta,
+    PostUpdatedMeta,
     PostTags
   },
   metaInfo () {
@@ -61,6 +64,7 @@ query Post ($id: ID!) {
     title
     path
     date (format: "MMMM D, YYYY")
+    updated (format: "MMMM D, YYYY")
     tags {
       id
       title

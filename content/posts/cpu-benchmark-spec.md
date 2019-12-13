@@ -2,6 +2,7 @@
 title: CPUベンチマーク SPECの見方
 slug: cpu-benchmark-spec
 date: 2012-11-24
+updated:
 published: true
 tags:
     - CPU

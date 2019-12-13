@@ -2,6 +2,7 @@
 title: KubernetesのOperatorをAnsibleで作るときのTips
 slug: kubernetes-ansible-operator-tips
 date: 2019-12-06
+updated: 2019-12-13
 published: true
 tags:
     - Ansible
@@ -108,7 +109,7 @@ Reconcileは定期的なサイクルや、Resourceの状態に応じて実行さ
 
 Resourceの状態をセットするには ansibleの [`k8s_status`](https://github.com/fabianvf/ansible-k8s-status-module) モジュールを使って、playbookの中で以下のように実行します。
 
-> 2019/12/19 追記: `k8s_status` モジュールは削除され、代わりに、 `operator_sdk.util.k8s_status` を使うようになっています。詳しくは [Remove k8s_status module, install from galaxy](https://github.com/operator-framework/operator-sdk/pull/2310)
+> 2019/12/13 追記: `k8s_status` モジュールは削除され、代わりに、 `operator_sdk.util.k8s_status` を使うようになっています。詳しくは [Remove k8s_status module, install from galaxy](https://github.com/operator-framework/operator-sdk/pull/2310)
 
 ```yaml
 - k8s_status:

@@ -2,6 +2,7 @@
 title: Hello, World!
 slug: wake-up_good-night
 date: 2012-11-17
+updated:
 published: true
 series: false
 canonical_url: false

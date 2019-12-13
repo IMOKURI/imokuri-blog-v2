@@ -23,6 +23,7 @@ query Tag ($id: ID!) {
             title
             path
             date (format: "MMMM D, YYYY")
+            updated (format: "MMMM D, YYYY")
             description
             content
           }

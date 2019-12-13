@@ -2,6 +2,7 @@
 title: Say hello to Gridsome 🎉
 slug: say-hello-to-gridsome
 date: 2019-02-07
+updated:
 published: false
 tags: ['Markdown', 'Releases']
 canonical_url: false

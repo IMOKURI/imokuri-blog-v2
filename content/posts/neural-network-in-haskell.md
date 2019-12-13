@@ -2,6 +2,7 @@
 title: Haskellでニューラルネットワーク
 slug: neural-network-in-haskell
 date: 2015-07-15
+updated:
 published: true
 tags:
     - Haskell

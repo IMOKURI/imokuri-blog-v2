@@ -19,6 +19,7 @@ query {
         id
         title
         date (format: "MMMM D, YYYY")
+        updated (format: "MMMM D, YYYY")
         description
         cover_image (width: 770, height: 380, blur: 10)
         path

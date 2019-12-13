@@ -2,6 +2,7 @@
 title: Neovimでvirtualenvを使うときのpython_host_progの設定
 slug: neovim-python-virtualenv
 date: 2017-07-03
+updated:
 published: true
 tags:
     - Neovim

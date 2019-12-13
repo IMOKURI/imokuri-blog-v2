@@ -2,6 +2,7 @@
 title: プロセスとスレッドの違い
 slug: difference-between-process-and-thread
 date: 2013-12-14
+updated:
 published: true
 tags:
     - Linux
