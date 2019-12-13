@@ -4,8 +4,8 @@ slug: kubernetes-ansible-operator-tips
 date: 2019-12-06
 published: true
 tags:
-    - Kubernetes
     - Ansible
+    - Kubernetes
 series: false
 canonical_url: false
 description: ""
@@ -47,6 +47,8 @@ index 47dc7fb..f916d7d 100644
 ```
 
 たとえば、 `watches.yaml`からansibleの変数を渡したりするのは、この最新イメージでないとできないです。。(今のところ)
+
+> 2019/12/13 追記: [0.13.0](https://github.com/operator-framework/operator-sdk/releases/tag/v0.13.0) がリリースされて、そのリリースに↑は含まれています。
 
 ## 定期的なreconcileを実行する
 
@@ -105,6 +107,8 @@ index 872bf2f..cfee326 100644
 Reconcileは定期的なサイクルや、Resourceの状態に応じて実行されますが、自分でResourceの状態をコントロールすることもできます。
 
 Resourceの状態をセットするには ansibleの [`k8s_status`](https://github.com/fabianvf/ansible-k8s-status-module) モジュールを使って、playbookの中で以下のように実行します。
+
+> 2019/12/19 追記: `k8s_status` モジュールは削除され、代わりに、 `operator_sdk.util.k8s_status` を使うようになっています。詳しくは [Remove k8s_status module, install from galaxy](https://github.com/operator-framework/operator-sdk/pull/2310)
 
 ```yaml
 - k8s_status:
