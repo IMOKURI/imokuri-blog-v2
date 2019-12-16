@@ -27,6 +27,7 @@
       </div>
     </div>
 
+    <Disclaimer/>
     <Author class="post-author" />
   </Layout>
 </template>
@@ -36,10 +37,12 @@ import PostMeta from '~/components/PostMeta'
 import PostUpdatedMeta from '~/components/PostUpdatedMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
+import Disclaimer from '~/components/Disclaimer.vue'
 
 export default {
   components: {
     Author,
+    Disclaimer,
     PostMeta,
     PostUpdatedMeta,
     PostTags

@@ -16,6 +16,8 @@
 
     </div>
 
+    <Disclaimer/>
+
   </Layout>
 </template>
 
@@ -33,11 +35,13 @@ query {
 
 <script>
 import Author from '~/components/Author.vue'
+import Disclaimer from '~/components/Disclaimer.vue'
 import PostUpdatedMeta from '~/components/PostUpdatedMeta'
 
 export default {
   components: {
     Author,
+    Disclaimer,
     PostUpdatedMeta
   },
   metaInfo () {

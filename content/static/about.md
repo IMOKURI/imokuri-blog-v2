@@ -45,8 +45,3 @@ Sugiyama, Yoshio
 - Kubernetes
 - Python
 - Deep Learning
-
----
-
-このblogの内容は個人の意見に基づくものであり、
-所属組織団体の公式見解とは異なる場合があります点、ご了承ください。
