@@ -8,12 +8,27 @@
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
 
+    <Pager
+      class="pager"
+      v-if="$page.posts.pageInfo.totalPages > 1"
+      :info="$page.posts.pageInfo" />
+
   </Layout>
 </template>
 
 <page-query>
-query {
-  posts: allPost(filter: { published: { eq: true }}) {
+query ($page: Int) {
+  posts: allPost(
+    filter: {published: {eq: true}},
+    sortBy: "date",
+    order: DESC,
+    perPage: 10,
+    page: $page
+  ) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
       node {
         id
@@ -35,11 +50,13 @@ query {
 </page-query>
 
 <script>
+import { Pager } from 'gridsome'
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
+    Pager,
     Author,
     PostCard
   },
@@ -48,3 +65,19 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.pager {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  padding: calc(var(--space) / 2) 0;
+
+  margin-top: -.5em;
+  a {
+    margin: 0 .8em;
+    text-decoration: none;
+    color: currentColor;
+  }
+}
+</style>
