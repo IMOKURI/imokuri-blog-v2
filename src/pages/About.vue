@@ -11,6 +11,7 @@
       <div class="post__content" v-html="$page.about.content" />
 
       <div class="post__footer">
+        <a href="https://twitter.com/rouge_pawn?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @rouge_pawn</a>
         <PostUpdatedMeta :post="$page.about" />
       </div>
 
@@ -46,7 +47,8 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$page.about.title
+      title: this.$page.about.title,
+      script: [{ src: 'https://platform.twitter.com/widgets.js', async: true }]
     }
   }
 }
