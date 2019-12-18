@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'IMOKURI Blog',
-  siteDescription: 'I like IMO and KURI.',
+  siteDescription: 'Tech Blog by IMOKURI. Right mix infrastructure engineer who like edge technology and coding.',
 
   templates: {
     Post: '/blog/:year/:month/:slug',
