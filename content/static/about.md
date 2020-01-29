@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-updated: 2019-12-06
+updated: 2020-01-29
 cover_image: ./images/about.jpg
 ---
 
@@ -22,26 +22,21 @@ Sugiyama, Yoshio
 - いもくり
 - カツ丼
 
-#### 好きなSNS
-
-- GitHub
-
-#### 好きなEditor
-
-- Neovim
-
 #### 得意なこと
 
 - Ansible(Ansible Tower)
 - Zabbix(SNMP)
 - MapR(Hadoop)
-- Git(GitHub)
-- Jenkins
-- Docker
-- Linux
 
 #### 最近頑張っていること
 
 - Kubernetes
-- Python
 - Deep Learning
+
+#### 好きなEditor
+
+- Neovim
+
+#### 好きなSNS
+
+- GitHub
