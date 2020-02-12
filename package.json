@@ -12,6 +12,7 @@
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.3.0",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-remark-twitter": "^0.2.1",
     "vue-disqus": "^3.0.5"
   },
   "devDependencies": {

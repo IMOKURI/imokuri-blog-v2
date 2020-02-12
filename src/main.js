@@ -12,4 +12,10 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
 
   // Vue.use(VueDisqus)
+
+  // Add an external Javascript before the closing </body> tag
+  head.script.push({
+    src: 'https://platform.twitter.com/widgets.js',
+    async: true,
+  });
 }

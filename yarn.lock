@@ -4316,6 +4316,14 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gridsome-plugin-remark-twitter@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-twitter/-/gridsome-plugin-remark-twitter-0.2.1.tgz#cf66c2c73a891091c58d10c93ba82a3e49d277b8"
+  integrity sha512-e7YnDDPP96L8L8/o7hF0vPhwaWvw3Edqlt1uKIYA8GzSP17FaojahHmuTG/SPNFJd2ivZqDyD8lEMAAMIqd3zA==
+  dependencies:
+    node-fetch "^2.3.0"
+    unist-util-visit "^1.4.0"
+
 gridsome@^0.7.0:
   version "0.7.11"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.11.tgz#3bc1fca4418725b25fd7d856f758cd0a8b107a9e"
@@ -6238,6 +6246,11 @@ node-abi@^2.7.0:
   integrity sha512-9HrZGFVTR5SOu3PZAnAY2hLO36aW1wmA+FDsVkr85BTST32TLCA1H/AEcatVRAsWLyXS3bqUDYCAjq5/QGuSTA==
   dependencies:
     semver "^5.4.1"
+
+node-fetch@^2.3.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-gyp@^3.8.0:
   version "3.8.0"
