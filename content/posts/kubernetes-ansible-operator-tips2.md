@@ -2,7 +2,7 @@
 title: KubernetesのOperatorをAnsibleで作るときのTips2
 slug: kubernetes-ansible-operator-tips2
 date: 2020-02-12
-updated:
+updated: 2020-02-26
 published: true
 tags:
     - Ansible
