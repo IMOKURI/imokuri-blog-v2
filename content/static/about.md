@@ -11,32 +11,30 @@ Sugiyama, Yoshio
 
 日本ヒューレット・パッカードでインフラエンジニアをしています。
 
-#### 趣味
+手を動かして、いろいろ検証することが好きで、いろいろな技術をかじっています。
 
-- スキー
-- スポーツクライミング
-- 将棋
-
-#### 好きな食べ物
-
-- いもくり
-- カツ丼
+小さい頃からさつまいもとくりが好きです。なので IMOKURI。
 
 #### 得意なこと
 
-- Ansible(Ansible Tower)
-- Zabbix(SNMP)
-- MapR(Hadoop)
+- Ansible (Ansible Tower)
 
 #### 最近頑張っていること
 
 - Kubernetes
-- Deep Learning
+- Machine Learning (Deep Learning)
+- MapR, Cloudera (Hadoop)
+
+#### 好きな言語
+
+- Python
 
 #### 好きなEditor
 
 - Neovim
+- Jupyter Notebook
 
-#### 好きなSNS
+#### 趣味
 
-- GitHub
+- スキー
+- 将棋
