@@ -18,12 +18,13 @@ Sugiyama, Yoshio
 #### 得意なこと
 
 - Ansible (Ansible Tower)
+- SNMP, Zabbix
+- Hadoop (MapR, Cloudera)
 
 #### 最近頑張っていること
 
 - Kubernetes
 - Machine Learning (Deep Learning)
-- MapR, Cloudera (Hadoop)
 
 #### 好きな言語
 
@@ -32,7 +33,6 @@ Sugiyama, Yoshio
 #### 好きなEditor
 
 - Neovim
-- Jupyter Notebook
 
 #### 趣味
 
