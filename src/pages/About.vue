@@ -11,7 +11,7 @@
       <div class="post__content" v-html="$page.about.content" />
 
       <div class="post__footer">
-        <a href="https://twitter.com/rouge_pawn?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @rouge_pawn</a>
+        <a href="https://twitter.com/imokurity?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @imokurity</a>
         <PostUpdatedMeta :post="$page.about" />
       </div>
 

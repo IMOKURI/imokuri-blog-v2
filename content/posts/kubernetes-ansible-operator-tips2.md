@@ -22,17 +22,17 @@ operator-sdkでkuebrnetesのoperatorを開発するときのTipsです。
 
 0.15.1 ではまだ未リリース。
 
-https://twitter.com/rouge_pawn/status/1226674129379610625
+https://twitter.com/imokurity/status/1226674129379610625
 
 ---
 
 ansibleのoperatorで環境変数を使いたい場合の指定の仕方。
 
-https://twitter.com/rouge_pawn/status/1227394508729417729
+https://twitter.com/imokurity/status/1227394508729417729
 
-https://twitter.com/rouge_pawn/status/1227395168493432834
+https://twitter.com/imokurity/status/1227395168493432834
 
-https://twitter.com/rouge_pawn/status/1232450714137268226
+https://twitter.com/imokurity/status/1232450714137268226
 
 ---
 
