@@ -23,8 +23,8 @@ Sugiyama, Yoshio
 
 #### 最近頑張っていること
 
+- Machine Learning, Deep Learning, Kaggle
 - Kubernetes
-- Machine Learning (Deep Learning)
 
 #### 好きな言語
 
@@ -33,6 +33,7 @@ Sugiyama, Yoshio
 #### 好きなEditor
 
 - Neovim
+- Jupyter
 
 #### 趣味
 
