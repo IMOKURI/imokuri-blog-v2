@@ -11,7 +11,7 @@ tags:
     - SNMPTT
 series: false
 canonical_url: false
-description: "CentOS/RHEL 8 で net-snmp-parl をビルドする方法です"
+description: "CentOS/RHEL 8 で net-snmp-perl をビルドする方法です"
 ---
 
 CentOS/RHEL 8 では、 net-snmp-perl パッケージが標準のレポジトリで提供されなくなりました。
