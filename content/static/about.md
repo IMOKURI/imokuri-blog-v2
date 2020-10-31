@@ -15,6 +15,8 @@ Sugiyama, Yoshio
 
 小さい頃からさつまいもとくりが好きです。なので IMOKURI。
 
+涙もろいです。
+
 #### 得意なこと
 
 - Ansible (Ansible Tower)
