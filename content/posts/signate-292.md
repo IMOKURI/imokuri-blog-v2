@@ -5,6 +5,7 @@ date: 2020-09-01
 updated:
 published: true
 tags:
+    - Compete
     - Machine Learning
     - Deep Learning
 series: false
