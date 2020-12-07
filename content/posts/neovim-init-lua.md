@@ -13,7 +13,7 @@ description: "Neovim で init.lua をユーザーコンフィグとして使え�
 
 最近、Neovim で `init.lua` を `init.vim` の代わりに使えるようになりました。
 
-[add init.lua as an alternative user config](https://github.com/neovim/neovim/pull/12235/files)
+[add init.lua as an alternative user config](https://github.com/neovim/neovim/pull/12235)
 
 注意点として、 `init.vim` と `init.lua` を両方同時に使うことはできません。
 (`Conflicting configs: "init.lua" "init.vim"` というメッセージが表示され、どちらも読み込まれません。)
