@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-updated: 2020-01-29
+updated: 2021-02-17
 cover_image: ./images/about.jpg
 ---
 
@@ -9,35 +9,48 @@ cover_image: ./images/about.jpg
 
 Sugiyama, Yoshio
 
+
+I'm an infrastructure engineer with Hewlett-Packard Japan.
+
+I like edge technology and coding.
+
+I have loved sweet potatoes (IMO in Japanese) and chestnuts (KURI in Japanese) since I was a child.
+So this blog name is IMOKURI.
+
+
 日本ヒューレット・パッカードでインフラエンジニアをしています。
 
 手を動かして、いろいろ検証することが好きで、いろいろな技術をかじっています。
 
 小さい頃からさつまいもとくりが好きです。なので IMOKURI。
 
-涙もろいです。
 
-#### 得意なこと
+#### Favorite
 
-- Ansible (Ansible Tower)
-- SNMP, Zabbix
-- Hadoop (MapR, Cloudera)
+- Ansible
+- Jenkins
+- DevOps, CI/CD
 
-#### 最近頑張っていること
+#### Challenge
 
-- Machine Learning, Deep Learning, Kaggle
+- ML, DL, Kaggle
 - Kubernetes
 
-#### 好きな言語
+#### Programming
 
 - Python
 
-#### 好きなEditor
+#### Editor
 
 - Neovim
 - Jupyter
 
-#### 趣味
+#### Hobby
 
-- スキー
-- 将棋
+- Ski
+- Shogi (Japanese famous board game like chess)
+- [Project Euler](https://projecteuler.net/)
+
+#### Recent Activity
+
+- 2020/12: AWS SAA
