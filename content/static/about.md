@@ -53,4 +53,5 @@ So this blog name is IMOKURI.
 
 #### Recent Activity
 
-- 2020/12: AWS SAA
+- 2020/12: AWS Certified Solutions Architect - Associate (AWS SAA)
+- 2021/06: Microsoft Certified Azure Administrator Associate (AZ-104)
