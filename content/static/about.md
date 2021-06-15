@@ -35,6 +35,7 @@ So this blog name is IMOKURI.
 
 - ML, DL, Kaggle
 - Kubernetes
+- Cloud
 
 #### Programming
 
@@ -49,9 +50,10 @@ So this blog name is IMOKURI.
 
 - Ski
 - Shogi (Japanese famous board game like chess)
-- [Project Euler](https://projecteuler.net/)
+- [Project Euler](https://projecteuler.net/progress=IMOKURI)
 
 #### Recent Activity
 
 - 2020/12: AWS Certified Solutions Architect - Associate (AWS SAA)
+- 2021/02: Kaggle - [Cassava Leaf Disease Classification, Private 28th, Public 8th](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/220599) 🥈
 - 2021/06: Microsoft Certified Azure Administrator Associate (AZ-104)
