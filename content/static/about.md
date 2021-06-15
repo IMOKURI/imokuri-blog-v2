@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-updated: 2021-02-17
+updated: 2021-06-15
 cover_image: ./images/about.jpg
 ---
 
