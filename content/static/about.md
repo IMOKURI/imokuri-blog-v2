@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-updated: 2021-07-01
+updated: 2021-08-12
 cover_image: ./images/about.jpg
 ---
 
@@ -58,3 +58,5 @@ So this blog name is IMOKURI.
 - 2021/02: Kaggle, Cassava Leaf Disease Classification - [Private 28th, Public 8th](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/220599) 🥈
 - 2021/06: Microsoft Certified Azure Administrator Associate (AZ-104)
 - 2021/06: Kaggle, Hungry Geese - [Congratulations to our Month 5 Winners - Goose luck!](https://www.kaggle.com/c/hungry-geese/discussion/248986)
+- 2021/08: Kaggle, Hungry Geese - [4th place solution](https://www.kaggle.com/c/hungry-geese/discussion/263690) 🥇
+- 2021/08: Kaggle, Competitions Expert
