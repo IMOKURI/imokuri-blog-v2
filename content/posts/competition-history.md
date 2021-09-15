@@ -2,7 +2,7 @@
 title: 機械学習コンペ参加履歴
 slug: competition-history
 date: 2021-09-14
-updated:
+updated: 2021-09-15
 published: true
 tags:
     - Compete
@@ -52,3 +52,4 @@ description: "コンペの資産を残す場所です。"
 - 時系列データ処理
 - 異なるデータの組み合わせ(テーブル+画像 とか)
 - 音声
+- 異常検知
