@@ -2,7 +2,7 @@
 title: 機械学習コンペ参加履歴
 slug: competition-history
 date: 2021-09-14
-updated: 2021-09-15
+updated: 2021-09-16
 published: true
 tags:
     - Compete
@@ -49,6 +49,7 @@ description: "コンペの資産を残す場所です。"
 ## 今後やってみたいコンペ
 
 - 画像 物体検出
+- 画像 セグメンテーション
 - 時系列データ処理
 - 異なるデータの組み合わせ(テーブル+画像 とか)
 - 音声
