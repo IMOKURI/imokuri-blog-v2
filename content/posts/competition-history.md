@@ -2,7 +2,7 @@
 title: 機械学習コンペ参加履歴
 slug: competition-history
 date: 2021-09-14
-updated: 2021-09-16
+updated: 2021-10-13
 published: true
 tags:
     - Compete
@@ -42,9 +42,9 @@ description: "コンペの資産を残す場所です。"
 - SIGNATE [医学論文の自動仕分けチャレンジ](https://signate.jp/competitions/471)
     - 自然言語処理、分類、F Beta Score
     - [GitHub](https://github.com/IMOKURI/signate-471)
-- Kaggle [chaii - Hindi and Tamil Question Answering](https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering)
-    - 自然言語処理、QA、word-level Jaccard Score
-    - [GitHub](https://github.com/IMOKURI/chaii-Hindi-and-Tamil-QA)
+- Kaggle [PetFinder.my - Pawpularity Contest](https://www.kaggle.com/c/petfinder-pawpularity-score)
+    - 画像スコアリング、回帰、RMSE
+    - [GitHub](https://github.com/IMOKURI/petfinder-pawpularity-score)
 
 ## 今後やってみたいコンペ
 
