@@ -12,8 +12,7 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.0",
     "gridsome-plugin-gtm": "^0.1.1",
-    "gridsome-plugin-remark-twitter": "^0.2.1",
-    "vue-disqus": "^4.0.1"
+    "gridsome-plugin-remark-twitter": "^0.2.1"
   },
   "devDependencies": {
     "eslint": "^6.7.2",

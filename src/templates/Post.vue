@@ -23,7 +23,6 @@
 
       <div class="post-comments">
         <!-- Add comment widgets here -->
-        <!-- <vue-disqus shortname="imokuri" :identifier="$page.post.title"></vue-disqus> -->
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
       </div>
     </div>
