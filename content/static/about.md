@@ -47,7 +47,7 @@ So this blog name is IMOKURI.
 - Ski
 - Shogi (Japanese famous board game like chess)
 - Bon Odori (Japanese traditional dance in festival)
-- [Project Euler](https://projecteuler.net/progress=IMOKURI)
+- Project Euler
 
 #### Recent Activity
 
@@ -57,3 +57,5 @@ So this blog name is IMOKURI.
 - 2021/06: Kaggle, Hungry Geese - [Congratulations to our Month 5 Winners - Goose luck!](https://www.kaggle.com/c/hungry-geese/discussion/248986)
 - 2021/08: Kaggle, Hungry Geese - [4th place solution](https://www.kaggle.com/c/hungry-geese/discussion/263690) 🥇
 - 2021/08: Kaggle, Competitions Expert
+
+#### Stats

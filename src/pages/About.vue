@@ -10,7 +10,13 @@
 
       <div class="post__content" v-html="$page.about.content" />
 
+      <p>
+        <div><g-image alt="Kaggle competition stats" src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/IMOKURI/competition/light" /></div>
+        <div><g-image alt="Project Euler stats" src="https://projecteuler.net/profile/IMOKURI.png" /></div>
+      </p>
+
       <div class="post__footer">
+        <div><g-image alt="E-mail" src="/assets/static/mail.png" /></div>
         <a href="https://twitter.com/imokurity?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @imokurity</a>
         <PostUpdatedMeta :post="$page.about" />
       </div>
