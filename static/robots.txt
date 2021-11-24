@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imokuri123.com/sitemap.xml
