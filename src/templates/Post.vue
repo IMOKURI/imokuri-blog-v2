@@ -56,7 +56,7 @@ export default {
           content: this.$page.post.description
         }
       ],
-      script: [{ src: 'https://platform.twitter.com/widgets.js', async: true }]
+      script: [{ src: 'https://platform.twitter.com/widgets.js' }]
     }
   }
 }

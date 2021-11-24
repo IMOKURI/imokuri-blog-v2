@@ -49,7 +49,7 @@ module.exports = {
       options: {
         id: 'GTM-NTBCJL2',
         enabled: true,
-        debug: true,
+        debug: true
       }
     }
   ],
@@ -62,7 +62,7 @@ module.exports = {
       anchorClassName: 'icon icon-link',
       plugins: [
         '@gridsome/remark-prismjs',
-        'gridsome-plugin-remark-twitter'
+        ['gridsome-plugin-remark-twitter', { omitScript: true }]
       ]
     }
   }

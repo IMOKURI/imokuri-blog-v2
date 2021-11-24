@@ -54,7 +54,7 @@ export default {
   metaInfo () {
     return {
       title: this.$page.about.title,
-      script: [{ src: 'https://platform.twitter.com/widgets.js', async: true }]
+      script: [{ src: 'https://platform.twitter.com/widgets.js' }]
     }
   }
 }
