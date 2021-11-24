@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'IMOKURI Blog',
+  siteUrl: 'https://imokuri123.com',
   siteDescription: 'Tech Blog by IMOKURI. Right mix infrastructure engineer who like edge technology and coding.',
 
   templates: {
@@ -50,6 +51,11 @@ module.exports = {
         id: 'GTM-NTBCJL2',
         enabled: true,
         debug: true
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
       }
     }
   ],
