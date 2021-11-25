@@ -7,13 +7,13 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       darkTheme: false
     }
   },
   methods: {
-    toggleTheme() {
+    toggleTheme () {
       this.darkTheme = !this.darkTheme
 
       // This is using a script that is added in index.html
@@ -22,8 +22,8 @@ export default {
       )
     }
   },
-  mounted() {
-    if (window.__theme == 'dark') this.darkTheme = true
+  mounted () {
+    if (window.__theme === 'dark') this.darkTheme = true
   }
 }
 </script>
@@ -43,3 +43,4 @@ export default {
   }
 }
 </style>
+
