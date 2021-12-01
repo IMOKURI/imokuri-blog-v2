@@ -11,7 +11,10 @@
     </div>
 
     <div class="post content-box">
+
       <div class="post__header">
+        <Alert :passYear="postIsOlderThanOneYear" v-if="postIsOlderThanOneYear > 0" />
+
         <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
       </div>
 
@@ -33,14 +36,17 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostUpdatedMeta from '~/components/PostUpdatedMeta'
-import PostTags from '~/components/PostTags'
+import moment from 'moment'
+import Alert from '~/components/Alert.vue'
 import Author from '~/components/Author.vue'
 import Disclaimer from '~/components/Disclaimer.vue'
+import PostMeta from '~/components/PostMeta'
+import PostTags from '~/components/PostTags'
+import PostUpdatedMeta from '~/components/PostUpdatedMeta'
 
 export default {
   components: {
+    Alert,
     Author,
     Disclaimer,
     PostMeta,
@@ -57,6 +63,16 @@ export default {
         }
       ],
       script: [{ src: 'https://platform.twitter.com/widgets.js' }]
+    }
+  },
+  computed: {
+    postIsOlderThanOneYear () {
+      if (this.$page.post.updated) {
+        const updateDate = moment(this.$page.post.updated)
+        return moment().diff(updateDate, 'years')
+      }
+      const postDate = moment(this.$page.post.date)
+      return moment().diff(postDate, 'years')
     }
   }
 }
@@ -88,7 +104,6 @@ query Post ($id: ID!) {
 }
 
 .post {
-
   &__header {
     width: calc(100% + var(--space) * 2);
     margin-left: calc(var(--space) * -1);
