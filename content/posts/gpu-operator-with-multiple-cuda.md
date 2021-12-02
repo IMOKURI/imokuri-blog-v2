@@ -15,10 +15,12 @@ description: "Kubernetes の GPU Operator を使って GPU の CUDA を複数バ
 
 Kubernetes で NVIDIA の GPU を使うときのお話です。
 
+この記事は、[Kubernetes Advent Calendar](https://qiita.com/advent-calendar/2021/kubernetes) 5日目の記事です。
+
 
 ## サマリ
 
-- NVIDIA GPU Operator を使うと Kubernetes で NVIDIA GPU を使うときのセットアップが簡単になるよ。
+- NVIDIA GPU Operator を使うと、 Kubernetes で NVIDIA GPU を使うときのセットアップが簡単になるよ。
 - コンテナによって、 CUDA Toolkit のバージョンを変えられるので、環境変数で切り替えたりしなくてよくなるよ。
 
 
