@@ -2,7 +2,7 @@
 title: CentOS/RHEL 8 での net-snmp-perl 問題
 slug: centos-rhel-8-net-snmp-perl
 date: 2020-07-04
-updated:
+updated: 2021-12-06
 published: true
 tags:
     - Linux
@@ -12,6 +12,13 @@ tags:
 series: false
 canonical_url: false
 description: "CentOS/RHEL 8 で net-snmp-perl をビルドする方法です"
+---
+
+2021/12/06 更新
+
+現在は、標準のレポジトリで net-snmp-perl パッケージが提供されているようです。
+（正確に、どのバージョンから提供されるようになったかは未確認です。） 🙂
+
 ---
 
 CentOS/RHEL 8 では、 net-snmp-perl パッケージが標準のレポジトリで提供されなくなりました。
