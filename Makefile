@@ -2,7 +2,7 @@
 .DEFAULT_GOAL := help
 
 install: ## Install yarn packages
-	yarn
+	yarn install
 
 update: ## Update yarn packages
 	yarn upgrade
