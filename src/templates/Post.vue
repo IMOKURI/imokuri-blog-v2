@@ -82,7 +82,7 @@ export default {
     const attrs = {
       src: 'https://utteranc.es/client.js',
       repo: 'IMOKURI/imokuri-blog-v2',
-      'issue-term': `${this.$page.post.slug}`,
+      'issue-term': 'pathname',
       theme: 'github-light',
       label: 'comment',
       crossorigin: 'anonymous',
