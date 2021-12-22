@@ -27,6 +27,7 @@
       <div class="post-comments">
         <!-- Add comment widgets here -->
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+        <div id="comments" />
       </div>
     </div>
 
@@ -74,6 +75,23 @@ export default {
       const postDate = moment(this.$page.post.date)
       return moment().diff(postDate, 'years')
     }
+  },
+  mounted () {
+    const script = window.document.createElement('script')
+    const utterance = window.document.getElementById('comments')
+    const attrs = {
+      src: 'https://utteranc.es/client.js',
+      repo: 'IMOKURI/imokuri-blog-v2',
+      'issue-term': `${this.$page.post.slug}`,
+      theme: 'github-light',
+      label: 'comment',
+      crossorigin: 'anonymous',
+      async: true
+    }
+    Object.entries(attrs).forEach(([key, value]) => {
+      script.setAttribute(key, value)
+    })
+    utterance.appendChild(script)
   }
 }
 </script>
