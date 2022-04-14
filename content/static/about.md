@@ -27,9 +27,9 @@ So this blog name is IMOKURI.
 
 #### Favorite
 
-- Ansible
 - Kubernetes
 - Machine Learning, Deep Learning
+- Ansible
 - DevOps, CI/CD
 
 #### Programming
