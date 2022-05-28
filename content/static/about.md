@@ -35,6 +35,7 @@ So this blog name is IMOKURI.
 #### Programming
 
 - Python
+- Lua
 
 #### Editor
 
