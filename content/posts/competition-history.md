@@ -2,7 +2,7 @@
 title: 機械学習コンペ参加履歴
 slug: competition-history
 date: 2021-09-14
-updated: 2021-11-16
+updated: 2022-06-08
 published: true
 tags:
     - Compete
@@ -49,11 +49,16 @@ description: "コンペの資産を残す場所です。"
     - 画像スコアリング、回帰、RMSE
     - [GitHub](https://github.com/IMOKURI/petfinder-pawpularity-score)
 
+## 2022年
+
+- Kaggle [Ubiquant Market Prediction](https://www.kaggle.com/competitions/ubiquant-market-prediction)
+    - テーブルデータ、時系列データ、回帰、ピアソン相関係数
+    - [GitHub](https://github.com/IMOKURI/ubiquant-market-prediction)
+
 ## 今後やってみたいコンペ
 
 - 画像 物体検出
 - 画像 セグメンテーション
-- 時系列データ処理
 - 異なるデータの組み合わせ(テーブル+画像 とか)
 - 音声
 - 異常検知
