@@ -2,7 +2,7 @@
 title: HPE Swarm Learning 使い方
 slug: hpe-swarm-learning-how-to-use
 date: 2022-06-15
-updated:
+updated: 2022-06-20
 published: true
 tags:
     - Deep Learning
@@ -25,6 +25,8 @@ description: "HPE Swarm Learning の使い方です。"
   - [SWOP Task 設定](#swop-task-%E8%A8%AD%E5%AE%9A)
     - [Docker コンテナイメージビルド Task](#docker-%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%83%93%E3%83%AB%E3%83%89-task)
     - [学習実行 Task](#%E5%AD%A6%E7%BF%92%E5%AE%9F%E8%A1%8C-task)
+    - [Docker イメージプル Task](#docker-%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%83%97%E3%83%AB-task)
+    - [ファイルダウンロード Task](#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-task)
   - [SWCI 実行処理設定](#swci-%E5%AE%9F%E8%A1%8C%E5%87%A6%E7%90%86%E8%A8%AD%E5%AE%9A)
     - [SWCI コンテキスト](#swci-%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88)
     - [SWCI コントラクト](#swci-%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%AF%E3%83%88)
@@ -203,6 +205,42 @@ Dockerコンテナのビルドを行うタスクの設定です。
 - `TaskType` は `RUN_SWARM` を指定します。
 - `PrivateContent` は、SWOP Profile で指定した `slnodedef.privatedata` のマウント先ディレクトリを指定します。
 - `SharedContent` は、各システム共通でマウントするディレクトリもしくはボリュームを指定します。学習済みモデルの保存先などを指定することが想定されています。
+
+
+#### Docker イメージプル Task
+
+![SWOP Task PULL_IMAGE](./images/20220620152218.png)
+
+Docker イメージをプルするTaskです。
+
+- `TaskType` は `PULL_IMAGE` を指定します。
+- `OrgAndReg` は Dockerイメージを含む Organization と Registry を指定します。
+- `RepoName` は Docker イメージを含む レポジトリの名前を指定します。
+- `Tag` はDocker イメージのタグを指定します。
+- `Auth` は プライベートなレジストリにアクセスする際に使用する認証情報を指定します。認証情報には以下の情報を使用できます。
+    * Docker の `config.json` のファイルパス
+    * レジストリへのログインユーザー名とパスワード
+
+
+#### ファイルダウンロード Task
+
+![SWOP Task MAKE_SWARM_USER_CONTENT](./images/20220620152243.png)
+
+特定のURLからデータをダウンロード（解凍）する Task です。ダウンロード（解凍）したファイルはDocker のVolume に保存されます。
+Dockerイメージのビルドや、学習に使用することを想定しています。
+
+- `TaskType` は `MAKE_SWARM_USER_CONTENT` を指定します。
+- `ContentType` は `BUILDCONTENT` もしくは `SWARMCONTENT` を指定します。それぞれ以下のような動作となります。
+    * `BUILDCONTENT` は、Dockerのビルドを想定した `ContentType` で、各SWOPにつき1つ、Volume が作成されます。
+    * `SWARMCONTENT` は、学習に使用することを想定した `ContentType` で、各SLにつき1つ、Volume が作成されます。
+- `Outcome` に指定した名称の Volume が作成されます。 `ContentType` が `SWARMCONTENT` の場合は、末尾に、連番が追加で付与されます。
+- `OpsList` には、ダウンロード（解凍する）データの情報を記載します。
+- `Operation` は `DOWNLOAD` もしくは、 `EXTRACT` を指定します。それぞれ以下のような動作となります。
+    * `DOWNLOAD` はファイルをダウンロードするTaskです。
+    * `EXTRACT` はダウンロード済みのファイル（ tar アーカイブ）を解凍する Task です。
+- `Target` は、ダウンロード（解凍）する元となるファイルのURLもしくは、ファイルパスです。
+- `Options.Out` は、ファイルの出力先の（Docker Volume内の）ファイルパスです。
+
 
 
 ### SWCI 実行処理設定
