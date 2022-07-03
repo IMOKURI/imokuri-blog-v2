@@ -5,6 +5,7 @@ date: 2022-06-15
 updated: 2022-06-20
 published: true
 tags:
+    - Blockchain
     - Deep Learning
     - HPE Swarm Learning
 series: HPE Swarm Learning
