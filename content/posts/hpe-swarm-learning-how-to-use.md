@@ -7,6 +7,7 @@ published: true
 tags:
     - Blockchain
     - Deep Learning
+    - Federated Learning
     - HPE Swarm Learning
 series: HPE Swarm Learning
 canonical_url: false
