@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-updated: 2021-11-22
+updated: 2022-07-15
 cover_image: ./images/about.jpg
 ---
 
@@ -52,11 +52,12 @@ So this blog name is IMOKURI.
 
 #### Recent Activity
 
-- 2020/12: AWS Certified Solutions Architect - Associate (AWS SAA)
-- 2021/02: Kaggle, Cassava Leaf Disease Classification - [Private 28th, Public 8th](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/220599) 🥈
-- 2021/06: Microsoft Certified Azure Administrator Associate (AZ-104)
-- 2021/06: Kaggle, Hungry Geese - [Congratulations to our Month 5 Winners - Goose luck!](https://www.kaggle.com/c/hungry-geese/discussion/248986)
-- 2021/08: Kaggle, Hungry Geese - [4th place solution](https://www.kaggle.com/c/hungry-geese/discussion/263690) 🥇
+- 2022/07: ML Study #6 LT [非中央集権の連合学習](https://speakerdeck.com/imokuri/decentralized-federated-learning-with-blockchain)
 - 2021/08: Kaggle, Competitions Expert
+- 2021/08: Kaggle, Hungry Geese - [4th place solution](https://www.kaggle.com/c/hungry-geese/discussion/263690) 🥇
+- 2021/06: Kaggle, Hungry Geese - [Congratulations to our Month 5 Winners - Goose luck!](https://www.kaggle.com/c/hungry-geese/discussion/248986)
+- 2021/06: Microsoft Certified Azure Administrator Associate (AZ-104)
+- 2021/02: Kaggle, Cassava Leaf Disease Classification - [Private 28th, Public 8th](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/220599) 🥈
+- 2020/12: AWS Certified Solutions Architect - Associate (AWS SAA)
 
 #### Stats
