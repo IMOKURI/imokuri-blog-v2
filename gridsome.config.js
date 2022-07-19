@@ -57,6 +57,29 @@ module.exports = {
       use: '@gridsome/plugin-sitemap',
       options: {
       }
+    },
+    {
+      use: 'gridsome-plugin-feed',
+      options: {
+        contentTypes: ['Post'],
+        feedOptions: {
+          title: 'IMOKURI Blog',
+          description: 'Tech Blog by IMOKURI. Right mix infrastructure engineer who like edge technology and coding.'
+        },
+        rss: {
+          enabled: true,
+          output: '/feed.xml'
+        },
+        maxItems: 10,
+        htmlFields: ['description', 'content'],
+        enforceTrailingSlashes: false,
+        filterNodes: (node) => true,
+        nodeToFeedItem: (node) => ({
+          title: node.title,
+          date: node.date || node.fields.date,
+          content: node.description
+        })
+      }
     }
   ],
 
