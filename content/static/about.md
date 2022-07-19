@@ -53,6 +53,7 @@ So this blog name is IMOKURI.
 #### Recent Activity
 
 - 2022/07: ML Study #6 LT [非中央集権の連合学習](https://speakerdeck.com/imokuri/decentralized-federated-learning-with-blockchain)
+- 2022/04: 担当プロジェクト [群馬大学 - AI人材育成とAI研究を加速、文理融合の新学部が挑むDX](https://www.hpe.com/jp/ja/customer-case-studies/services-gunma-u.html)
 - 2021/08: Kaggle, Competitions Expert
 - 2021/08: Kaggle, Hungry Geese - [4th place solution](https://www.kaggle.com/c/hungry-geese/discussion/263690) 🥇
 - 2021/06: Kaggle, Hungry Geese - [Congratulations to our Month 5 Winners - Goose luck!](https://www.kaggle.com/c/hungry-geese/discussion/248986)
