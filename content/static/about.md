@@ -1,13 +1,13 @@
 ---
 title: About Me
 slug: about
-updated: 2022-07-15
+updated: 2022-10-25
 cover_image: ./images/about.jpg
 ---
 
 ## About Me
 
-Sugiyama, Yoshio
+SUGIYAMA Yoshio - 杉山 禎夫
 
 
 I'm an infrastructure engineer with Hewlett-Packard Japan.
