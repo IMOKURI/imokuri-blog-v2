@@ -30,7 +30,7 @@ So this blog name is IMOKURI.
 
 #### Favorite
 
-- Kubernetes
+- Kubernetes, OpenShift
 - Machine Learning, Deep Learning
 - Ansible
 - DevOps, CI/CD
