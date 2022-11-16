@@ -2,7 +2,7 @@
 title: 機械学習コンペ参加履歴
 slug: competition-history
 date: 2021-09-14
-updated: 2022-10-11
+updated: 2022-11-16
 published: true
 tags:
     - Compete
@@ -23,6 +23,7 @@ description: "コンペの資産を残す場所です。"
     - [GitHub](https://github.com/IMOKURI/ubiquant-market-prediction)
 - Kaggle [Open Problems - Multimodal Single-Cell Integration](https://www.kaggle.com/competitions/open-problems-multimodal)
     - テーブルデータ、回帰、マルチラベル、ピアソン相関係数
+    - [GitHub](https://github.com/IMOKURI/kaggle-multimodal-single-cell-integration)
 
 ## 2021年
 
