@@ -8,7 +8,7 @@
         </h1>
 
         <p class="author__intro">
-            Right mix infrastructure engineer who like edge technology and coding. I like IMO and KURI.
+            Infrastructure / ML engineer at HPE. I like IMO and KURI.
         </p>
 
         <p class="author__links">

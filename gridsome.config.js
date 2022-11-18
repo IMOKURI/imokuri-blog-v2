@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'IMOKURI Blog',
   siteUrl: 'https://imokuri123.com',
-  siteDescription: 'Tech Blog by IMOKURI. Right mix infrastructure engineer who like edge technology and coding.',
+  siteDescription: 'Tech Blog by IMOKURI. Infrastructure / ML engineer at HPE.',
 
   templates: {
     Post: '/blog/:year/:month/:slug',
@@ -64,7 +64,7 @@ module.exports = {
         contentTypes: ['Post'],
         feedOptions: {
           title: 'IMOKURI Blog',
-          description: 'Tech Blog by IMOKURI. Right mix infrastructure engineer who like edge technology and coding.'
+          description: 'Tech Blog by IMOKURI. Infrastructure / ML engineer at HPE.'
         },
         rss: {
           enabled: true,

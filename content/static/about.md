@@ -10,9 +10,9 @@ cover_image: ./images/about.jpg
 SUGIYAMA Yoshio - 杉山 禎夫
 
 
-I'm an infrastructure engineer with Hewlett-Packard Japan.
+I'm an infrastructure / ML engineer with Hewlett-Packard Japan.
 
-I like edge technology and coding.
+I like Neovim.
 
 I have loved sweet potatoes (IMO in Japanese) and chestnuts (KURI in Japanese) since I was a child.
 So this blog name is IMOKURI.
