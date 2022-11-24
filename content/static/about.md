@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: about
-updated: 2022-10-25
+updated: 2022-11-24
 cover_image: ./images/about.jpg
 ---
 
@@ -13,9 +13,6 @@ SUGIYAMA Yoshio - 杉山 禎夫
 I'm an infrastructure / ML engineer with Hewlett-Packard Japan.
 
 I like Neovim.
-
-I have loved sweet potatoes (IMO in Japanese) and chestnuts (KURI in Japanese) since I was a child.
-So this blog name is IMOKURI.
 
 
 日本ヒューレット・パッカードでインフラエンジニアをしています。
@@ -55,6 +52,8 @@ So this blog name is IMOKURI.
 
 #### Recent Activity
 
+- 2022/11: Kaggle, Competitions Master
+- 2022/11: Kaggle, Multimodal Single-Cell Integration - [Private 41st Solution summary](https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366372) 🥈
 - 2022/07: ML Study #6 LT [非中央集権の連合学習](https://speakerdeck.com/imokuri/decentralized-federated-learning-with-blockchain)
 - 2022/04: 担当プロジェクト [群馬大学 - AI人材育成とAI研究を加速、文理融合の新学部が挑むDX](https://www.hpe.com/jp/ja/customer-case-studies/services-gunma-u.html)
 - 2021/08: Kaggle, Competitions Expert
@@ -64,4 +63,3 @@ So this blog name is IMOKURI.
 - 2021/02: Kaggle, Cassava Leaf Disease Classification - [Private 28th, Public 8th](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/220599) 🥈
 - 2020/12: AWS Certified Solutions Architect - Associate (AWS SAA)
 
-#### Stats

@@ -1,7 +1,7 @@
 ---
 title: Kaggle Multimodal Single-Cell Integration 振り返り
 slug: kaggle-multimodal-single-cell-integration
-date: 2022-11-16
+date: 2022-11-24
 updated:
 published: true
 tags:
@@ -55,8 +55,8 @@ Citeseq は 99% 分類が可能な状況で、この特徴量で学習をする�
 
 ## ✨ Result
 
-- Private: 0.769
-- Public: 0.813
+- Private: 0.769808
+- Public: 0.813093
 
 
 
