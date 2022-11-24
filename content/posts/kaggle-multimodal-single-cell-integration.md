@@ -1,8 +1,8 @@
 ---
 title: Kaggle Multimodal Single-Cell Integration 振り返り
 slug: kaggle-multimodal-single-cell-integration
-date: 2022-11-24
-updated:
+date: 2022-11-16
+updated: 2022-11-24
 published: true
 tags:
     - Compete
