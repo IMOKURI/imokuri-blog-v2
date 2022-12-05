@@ -15,7 +15,7 @@ I'm an infrastructure / ML engineer with Hewlett-Packard Japan.
 I like Neovim.
 
 
-日本ヒューレット・パッカードでインフラエンジニアをしています。
+日本ヒューレット・パッカードでインフラ/機械学習エンジニアをしています。
 
 手を動かして、いろいろ検証することが好きで、いろいろな技術をかじっています。
 
