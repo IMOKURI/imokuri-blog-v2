@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'IMOKURI Blog',
   siteUrl: 'https://imokuri123.com',
-  siteDescription: 'Tech Blog by IMOKURI. Right mix infrastructure engineer who like edge technology and coding.',
+  siteDescription: 'Tech Blog by IMOKURI. Infrastructure / ML engineer at HPE.',
 
   templates: {
     Post: '/blog/:year/:month/:slug',
@@ -56,6 +56,29 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
+      }
+    },
+    {
+      use: 'gridsome-plugin-feed',
+      options: {
+        contentTypes: ['Post'],
+        feedOptions: {
+          title: 'IMOKURI Blog',
+          description: 'Tech Blog by IMOKURI. Infrastructure / ML engineer at HPE.'
+        },
+        rss: {
+          enabled: true,
+          output: '/feed.xml'
+        },
+        maxItems: 10,
+        htmlFields: ['description', 'content'],
+        enforceTrailingSlashes: false,
+        filterNodes: (node) => true,
+        nodeToFeedItem: (node) => ({
+          title: node.title,
+          date: node.date || node.fields.date,
+          content: node.description
+        })
       }
     }
   ],

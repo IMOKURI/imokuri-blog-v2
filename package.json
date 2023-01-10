@@ -12,6 +12,7 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.23",
+    "gridsome-plugin-feed": "^1.0.2",
     "gridsome-plugin-gtm": "^0.1.1",
     "gridsome-plugin-remark-twitter": "^0.2.1",
     "gridsome-scroll-reveal": "^1.0.11"

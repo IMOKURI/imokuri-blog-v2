@@ -2,7 +2,7 @@
 title: 機械学習コンペ参加履歴
 slug: competition-history
 date: 2021-09-14
-updated: 2021-11-16
+updated: 2022-11-16
 published: true
 tags:
     - Compete
@@ -16,16 +16,14 @@ description: "コンペの資産を残す場所です。"
 
 このページはこれまで参加した機械学習コンペの資産を残す場所です。
 
-## 2020年
+## 2022年
 
-- SIGNATE [【第1回 Beginner限定コンペ】銀行の顧客ターゲティング](https://signate.jp/competitions/292)
-    - テーブルデータ、回帰、AUC
-    - [GitHub](https://github.com/IMOKURI/signate-292)
-    - [Solution](https://imokuri123.com/blog/2020/09/signate-292/)
-- Kaggle [Mechanisms of Action (MoA) Prediction](https://www.kaggle.com/c/lish-moa)
-    - テーブルデータ、分類、マルチラベル、Log Loss
-    - [GitHub](https://github.com/IMOKURI/kaggle-lish-moa)
-    - [Solution](https://imokuri123.com/blog/2020/12/kaggle-lish-moa/)
+- Kaggle [Ubiquant Market Prediction](https://www.kaggle.com/competitions/ubiquant-market-prediction)
+    - テーブルデータ、時系列データ、回帰、ピアソン相関係数
+    - [GitHub](https://github.com/IMOKURI/ubiquant-market-prediction)
+- Kaggle [Open Problems - Multimodal Single-Cell Integration](https://www.kaggle.com/competitions/open-problems-multimodal)
+    - テーブルデータ、回帰、マルチラベル、ピアソン相関係数
+    - [GitHub](https://github.com/IMOKURI/kaggle-multimodal-single-cell-integration)
 
 ## 2021年
 
@@ -49,11 +47,21 @@ description: "コンペの資産を残す場所です。"
     - 画像スコアリング、回帰、RMSE
     - [GitHub](https://github.com/IMOKURI/petfinder-pawpularity-score)
 
+## 2020年
+
+- SIGNATE [【第1回 Beginner限定コンペ】銀行の顧客ターゲティング](https://signate.jp/competitions/292)
+    - テーブルデータ、回帰、AUC
+    - [GitHub](https://github.com/IMOKURI/signate-292)
+    - [Solution](https://imokuri123.com/blog/2020/09/signate-292/)
+- Kaggle [Mechanisms of Action (MoA) Prediction](https://www.kaggle.com/c/lish-moa)
+    - テーブルデータ、分類、マルチラベル、Log Loss
+    - [GitHub](https://github.com/IMOKURI/kaggle-lish-moa)
+    - [Solution](https://imokuri123.com/blog/2020/12/kaggle-lish-moa/)
+
 ## 今後やってみたいコンペ
 
 - 画像 物体検出
 - 画像 セグメンテーション
-- 時系列データ処理
 - 異なるデータの組み合わせ(テーブル+画像 とか)
 - 音声
 - 異常検知
