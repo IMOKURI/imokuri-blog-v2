@@ -52,6 +52,7 @@ I like Neovim.
 
 #### Recent Activity
 
+- 2023/02: Informatica Certified Professional - Cloud Data and Application Integration
 - 2022/11: Kaggle, Competitions Master
 - 2022/11: Kaggle, Multimodal Single-Cell Integration - [Private 41st Solution summary](https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366372) 🥈
 - 2022/07: ML Study #6 LT [非中央集権の連合学習](https://speakerdeck.com/imokuri/decentralized-federated-learning-with-blockchain)
