@@ -9,10 +9,6 @@ module.exports = {
   siteUrl: "https://imokuri123.com",
   siteDescription: "Tech Blog by IMOKURI. Infrastructure / ML engineer at HPE.",
 
-  icon: {
-    icon: "./src/favicon.ico",
-  },
-
   templates: {
     Post: "/blog/:year/:month/:slug",
     Tag: "/tag/:id",
